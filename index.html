@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>
+        Currency Converter Project
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="converter">
+        <h2>
+            Currency Converter
+        </h2>
+        <input type="number" id="amount" placeholder="Enter amount" />
+        <div class="row">
+            <select id="from">
+                <option>INR</option>
+                <option>USD</option>
+                <option>EUR</option>
+                <option>AUD</option>
+            </select>
+
+            <select id="to">
+                <option>INR</option>
+                <option>USD</option>
+                <option>EUR</option>
+                <option>AUD</option>
+            </select>
+
+        </div>
+        <button onclick="convert()">Convert</button>
+        <h3 id="result">here</h3>
+        <script  src="script.js"></script>
+    </div>
+</body>
+
+</html>
